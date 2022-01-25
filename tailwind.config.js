@@ -1,7 +1,20 @@
 module.exports = {
-  content: [],
+  content: [
+    './src/**/*.{html,js}',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        primary: '#141b4b ',
+        secondary: '#ff7f32 ',
+        'white': '#ffffff',
+        'silver': '#ecebff',
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
