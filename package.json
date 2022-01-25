@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.0.16"
+  },
+  "name": "al-hands-and-voices",
+  "version": "1.0.0",
+  "description": "2022 redesign of website",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/BryantDesigns/Alabama-Hands-And-Voices"
+  },
+  "author": "Tyler Bryant of Bryant Designs LLC",
+  "license": "ISC"
+}
