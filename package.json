@@ -15,5 +15,9 @@
     "url": "github.com/BryantDesigns/Alabama-Hands-And-Voices"
   },
   "author": "Tyler Bryant of Bryant Designs LLC",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.4"
+  }
 }
