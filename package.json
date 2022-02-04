@@ -8,7 +8,8 @@
   "description": "2022 redesign of website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   "author": "Tyler Bryant of Bryant Designs LLC",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4"
   }
